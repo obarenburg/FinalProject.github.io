@@ -48,7 +48,7 @@ if (exampleModal) {
         const modalTitle = exampleModal.querySelector('.modal-title');
         const modalBodyText = exampleModal.querySelector('#modal-body-text');
 
-        const jsonUrl = `../json/${recipient}.json`;
+        const jsonUrl = `./json/${recipient}.json`;
 
         console.log(`Fetching JSON from: ${jsonUrl}`);
 
