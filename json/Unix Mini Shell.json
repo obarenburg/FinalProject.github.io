@@ -1,0 +1,16 @@
+{
+    "description": [
+        "Used C to implement a custom terminal, and recreate some common functions like ls, cp, and env",
+        "Utilized the fork exec pattern to execute a function even if the function was not apart of the program"
+    ],
+    "demonstrated_skills": [
+        "Strong UNIX knowledge",
+        "Dynamic memory allocation",
+        "Forking in C"
+    ],
+    "project_source": [
+        "CSCI 347 Computer Systems II"
+    ],
+    "image_url": "../img/modal-pic2.png",
+    "external_link": "https://github.com/obarenburg/FinalProject.github.io"
+}

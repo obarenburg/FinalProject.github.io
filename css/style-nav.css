@@ -75,7 +75,9 @@ body {
     scroll-margin-top: 95px;
     margin-bottom: 0em;
 }
-
+#how{
+    background-image: url("../json/Tic\ Tac\ Toe\ AI.json");
+}
 .projects-outline {
     padding-top: 1em;
     padding-bottom: 1em;
@@ -94,7 +96,7 @@ body {
 
 .instagram-link {
     display: inline-block;
-    margin-left: 10em;
+    margin-left: 1em;
     background-color: #91428d;
     color: white;
     padding: 10px 20px;
@@ -104,6 +106,19 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
+
+.linkedin-link {
+    display: inline-block;
+    margin-left: 1em;
+    background-color: #1951c9;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
 
 .contact {
@@ -195,6 +210,39 @@ footer {
     background-color: #232527;
     color: #fff;
     position: relative;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.modal-stuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.modal-info{
+    display: flex;
+}
+
+.modal-info h5{
+    color: purple;
+}
+
+.modal-info div{
+    padding: 1em;
+    margin: 1em;
+    padding-bottom: 1em;
+    border: 1px black solid;
+}
+
+.modal-link {
+    text-decoration: none;
+}
+
+.modal-image{
+    padding: 1em;
+    border-radius: 2em;
 }
 
 #AboutMe {
@@ -236,5 +284,64 @@ footer {
 @media(max-width: 880px) {
     input[type=submit] {
         width: 22vw;
+    }
+}
+
+@media(max-width: 800px) {
+    .modal-info{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 800px) {
+    .modal-info{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 670px) {
+    footer {
+        padding: 80px;
+        text-align: center;
+        background-color: #232527;
+        color: #fff;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram-link {
+        margin-top: 1em;
+        width: 7em;
+        align-items: center;
+        text-align: center;
+        display: inline-block;
+        margin-left: 1em;
+        background-color: #91428d;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+    
+    .linkedin-link {
+        margin-top: 1em;
+        width: 7em;
+        margin-left: auto;
+        display: inline-block;
+        margin-left: 1em;
+        background-color: #1951c9;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
     }
 }

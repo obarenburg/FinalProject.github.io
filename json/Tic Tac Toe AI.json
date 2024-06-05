@@ -1,0 +1,16 @@
+{
+    "description": [
+        "Implemented AI-driven Tic-Tac-Toe game in Java utilizing depth-limited search, heuristic evaluation, and the MiniMax algorithm.",
+        "Utilized team skills, pair programming and git source control to streamline development."
+    ],
+    "demonstrated_skills": [
+        "Teamwork",
+        "Implemented a heuristic",
+        "Simple AI algorithms"
+    ],
+    "project_source": [
+        "CSCI 405 Artificial Intelligence"
+    ],
+    "image_url": "../img/modal-pic1.png",
+    "external_link": "https://github.com/obarenburg/FinalProject.github.io"
+}

@@ -1,0 +1,16 @@
+{
+    "X16 Computer Emulation": [
+        "Used C to implement a 16-bit computer emulator by making use of bit fields, registers, and dynamic memory allocation.",
+        "Implemented various components like ALU, control unit, and memory management.",
+        "Implemented various components like ALU, control unit, and memory management."
+    ],
+    "Unix Mini Shell": [
+        "Used C to implement a custom terminal.",
+        "Recreated common functions like ls, cp, and env.",
+        "Handled piping and redirection."
+    ],
+    "Tic Tac Toe AI": [
+        "Implemented AI-driven Tic-Tac-Toe game in Java.",
+        "Utilized depth-limited search, heuristic evaluation, and the MiniMax algorithm."
+    ]
+}

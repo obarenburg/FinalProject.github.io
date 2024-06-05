@@ -1,0 +1,16 @@
+{
+    "description": [
+        "Used C to implement a 16-bit computer emulator by making use of bit fields, registers and dynamic memory allocation.",
+        "Created a custom assembler and 16-bit assembly language to create binary objects for the emulator to run."
+    ],
+    "demonstrated_skills": [
+        "Bit manipulation",
+        "Dynamic memory allocation",
+        "CPU architecture understanding"
+    ],
+    "project_source": [
+        "CSCI 247 Computer Systems I"
+    ],
+    "image_url": "../img/modal-pic3.png",
+    "external_link": "https://github.com/obarenburg/FinalProject.github.io"
+}

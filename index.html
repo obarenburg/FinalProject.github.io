@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/style-nav.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script defer src="./js/script.js"></script>
 </head>
@@ -19,14 +19,16 @@
     <nav class="navbar navbar-expand-lg s bg-semi-transparent fixed-top py-0">
         <div class="container-fluid p-0">
             <a class="navbar-brand fs-3 p-4 text-white" href="#banner">O.M.B</a>
-            <button class="navbar-toggler bg-white border-white m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-white border-white m-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active fs-5 m-0 p-4 text-white rounded" aria-current="page" href="#banner">Home</a>
+                        <a class="nav-link active fs-5 m-0 p-4 text-white rounded" aria-current="page"
+                            href="#banner">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-5 p-4 text-white rounded" href="#AboutMe">About</a>
@@ -60,7 +62,8 @@
                 <div class="col flex-column text-md-start p-2 w-100">
                     <h1 id="about-me-header" class="project-fade">About Me</h1>
                     <p id="about-me" class="project-fade">
-                        I am currently in my junior year at WWU, working towards a Bachelor of Science in Computer Science.
+                        I am currently in my junior year at WWU, working towards a Bachelor of Science in Computer
+                        Science.
                         Through my coursework and work experience, I cultivated my programming, customer service,
                         and communications skills, and I believe I can add value to your company.
                     </p>
@@ -76,48 +79,65 @@
             <div class="projects-outline container">
                 <div id="project-carousel" class="carousel carousel-dark slide" style="max-width: 750px;">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#project-carousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner rounded-5">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="./img/16bit.png" class="img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white">
-                                <h5>X16-Computer Emulation</h5>
-                                <p>Used C to implement a 16-bit computer emulator by making use of bit fields, registers
-                                    and dynamic memory allocation.</p>
+                        <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="X16 Computer Emulation">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./img/16bit.png" class="img-fluid" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>X16-Computer Emulation</h5>
+                                    <p>Used C to implement a 16-bit computer emulator by making use of bit fields,
+                                        registers
+                                        and dynamic memory allocation.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="./img/term.png" class="img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white">
-                                <h5>Unix Mini Shell</h5>
-                                <p>Used C to implement a custom terminal, and recreate some common functions like ls, cp, and
-                                    env</p>
+                        <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="Unix Mini Shell">
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/term.png" class="img-fluid" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-white">
+                                    <h5>Unix Mini Shell</h5>
+                                    <p>Used C to implement a custom terminal, and recreate some common functions like
+                                        ls, cp, and
+                                        env</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="./img/tictac.png" class="img-fluid" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>TicTacToe AI</h5>
-                                <p>Implemented AI-driven Tic-Tac-Toe game in Java utilizing depth-limited search, heuristic
-                                    evaluation, and the MiniMax algorithm.</p>
+                        <div type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="Tic Tac Toe AI">
+                            <div class="carousel-item">
+                                <img src="./img/tictac.png" class="img-fluid" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>TicTacToe AI</h5>
+                                    <p>Implemented AI-driven Tic-Tac-Toe game in Java utilizing depth-limited search,
+                                        heuristic
+                                        evaluation, and the MiniMax algorithm.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#project-carousel"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#project-carousel" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#project-carousel"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
             </div>
         </section>
-        
+
         <section class="contact" id="Contact">
             <h1 class="project-fade" id="cont">Contact</h1>
             <div class="contact-outline">
@@ -137,10 +157,26 @@
         <footer>
             Copyright &copy; 2024 Owen Barenburg
             <a href="https://www.instagram.com/obarenburg" target="_blank" class="instagram-link">Instagram</a>
+            <a href="https://www.linkedin.com/in/owen-barenburg-375182178/" target="_blank" class="linkedin-link">Linkedin</a>
         </footer>
 
-    </main>
-    <!-- <img src="./imgs/haskal.jpg" width="100%" alt="Haskell Plaza Drone Shot"> -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="modal-body-text"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
